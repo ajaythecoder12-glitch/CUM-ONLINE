@@ -1,0 +1,36 @@
+h1{
+    background-color: blue;
+    font-size: 25px;
+    border: 2px solid black;
+    text-align: center;
+}
+div{
+    text-align: center;
+
+}
+
+p{
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+ 
+.btn {
+display:block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #4CAF50;  /* Green background */
+  color: white;               /* White text color */
+  text-decoration: none;      /* No underline */
+  border-radius: 5px; 
+  text-align: center;        /* Rounded corners */
+}
+
+.page2 {
+    display: inline-block;
+
+}
+
+.page {
+    display: inline-block;
+}

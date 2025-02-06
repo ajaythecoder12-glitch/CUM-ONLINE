@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cum Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>Telegram Users</h1>
+<script>
+    function requestDownload(videoUrl) {
+        let paymentConfirmed = confirm("To download this video, you need to pay ₹2. Click OK to proceed.");
+        if (paymentConfirmed) {
+            window.location.href = "upi://pay?pa=ajaychamp22@okaxis&pn=Ajay&mc=0000&tid=" + new Date().getTime() + "&tr=" + Math.random().toString(36).substring(7) + "&tn=Video+Download&am=2&cu=INR";
+            setTimeout(() => {
+                let downloadConfirmed = confirm("Payment successful! Click OK to start your download.");
+                if (downloadConfirmed) {
+                    window.location.href = videoUrl;
+                }
+            }, 5000); // Simulating a delay for payment processing
+        }
+    }
+</script>
+
+
+<body>
+    <p>This site provide 15 videos for 50 rupees.</p>
+    <br><hr>
+    <div><h2 class="video1">Girlfriend sucking BF Cock in Car.</h2>
+        <video id="video" controls width="350" height="350">
+            <source src="myvid.WebM"> type="video/webp">your browser does not support the video tag.
+        </video></div>
+    <hr>
+    <br>
+    <div><h2 class="video1">Senior Classmate fucking Junior female.</h2>
+    <video id="video" controls width="350" height="350">
+        <source src="video2.webm"> type="video/webp">your browser does not support the video tag.
+    </video></div>
+    <hr>
+    <a href="page2.html" class="btn">go to page 2</a>
+</body>
+</html>
